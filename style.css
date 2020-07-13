@@ -83,7 +83,7 @@ a:visited {
 }
 
 .banner-title {
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 100px;
 }
 
@@ -125,6 +125,10 @@ section p {
 
 .basic-btn a:hover {
     font-weight: bold;
+}
+
+.basic-btn a:visited {
+    color: white;
 }
 
 .stats {
@@ -257,11 +261,22 @@ form {
     border-radius: 20px;
     width: 400px;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     border: 0px;
     background-color: white;
     margin: 10px;
 }
+
+#message {
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: 0px;
+    background-color: white;
+    margin: 10px;
+}
+
 
 #submit-btn:hover {
     cursor: pointer;
@@ -299,6 +314,10 @@ footer {
 
 .footer-links a:hover {
     text-decoration: underline;
+}
+
+.footer-links a:visited {
+    color: white;
 }
 
 .copyright {
