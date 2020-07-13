@@ -53,6 +53,7 @@ a {
 .nav-links a {
     padding: 10px;
     font-size: 1.4rem;
+    transition: .5s;
 }
 
 .nav-links a:hover {
@@ -93,11 +94,11 @@ section {
 
 section h2 {
     padding: 0px 0px 25px 0px;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 section p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 2em;
 }
 
@@ -311,6 +312,7 @@ footer {
 .footer-links a {
     padding: 10px;
     text-decoration: underline;
+    color: white;
 }
 
 .footer-links a:hover {
@@ -325,6 +327,11 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: .9rem;
+}
+
+.copyright a {
+    color: white;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width:1200px) {
