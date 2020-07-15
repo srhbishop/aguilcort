@@ -35,10 +35,6 @@ nav {
     padding: 25px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
 
 .nav-links {
     display: flex;
@@ -47,13 +43,14 @@ a {
     align-content: center;
     align-items: center;
     padding: 10px;
-
 }
 
 .nav-links a {
     padding: 10px;
     font-size: 1.4rem;
     transition: .5s;
+    color: black;
+    text-decoration: none;
 }
 
 .nav-links a:hover {
@@ -85,7 +82,7 @@ a {
 }
 
 section {
-    padding: 50px 70px 50px 70px;
+    padding: 100px 70px 0px 70px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -111,12 +108,16 @@ section p {
     font-size: 1.5rem;
     width: 50%;
     padding: 10px;
-    margin: 10px 10px 25px 10px;
+    margin: 25px 10px 25px 10px;
     border-radius: 5px;
     background-color: #42801E;
     border: #42801E;
     box-shadow: 0px;
     outline: none;
+    color: white;
+}
+
+.basic-btn a {
     color: white;
 }
 
@@ -295,6 +296,7 @@ footer {
     color: white;
     padding: 20px;
     font-size: 1.2rem;
+    margin-top: 100px;
 }
 
 .footer-contact i {
@@ -582,7 +584,7 @@ footer {
     }
 
     section {
-        padding: 20px;
+        padding: 100px 20px 0px 20px;
         display: flex;
         justify-content: center;
         align-items: center;
