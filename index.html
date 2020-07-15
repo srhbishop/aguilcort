@@ -166,10 +166,10 @@
     -->
 
         <form id="contact-form" netlify>
-            <input type="text" name="name" id="name" placeholder="Your Name" required> 
-            <input type="email" name="email" id="email" placeholder="Your Email Address" required> 
-            <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" required> 
-            <textarea name="message" rows="5" id="message" placeholder="Your Message" required></textarea>
+            <input type="text" name="name" id="name" placeholder="Your Name"> 
+            <input type="email" name="email" id="email" placeholder="Your Email Address"> 
+            <input type="tel" name="phone" id="phone" placeholder="Your Phone Number"> 
+            <textarea name="message" rows="5" id="message" placeholder="Your Message"></textarea>
             <input type="submit" value="Submit" id="submit-btn">
         </form>
     </div>
@@ -201,6 +201,15 @@
         <p>&copy; Aguilcort 2020; web design by <a href="https://srhbishop.com" target="_blank">SRH Bishop Web Dev</a></p>  
     </div>
 </footer>
+
+<!--For the pop-up when someone submits the contact form-->
+<div class="modal-bg">
+    <div class="modal-box">
+        <p>Thanks for contacting us! We look forward to talking with you and will get back to you soon!</p>
+        <br>
+        <button class="basic-btn" id="close-modal">Close</button>
+    </div>
+</div>
 
 <script src="app.js"></script>
     

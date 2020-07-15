@@ -40,3 +40,15 @@ function prevSlide() {
         sliderImgs[sliderImgs.length-1].classList.add('active');
     }
 }
+
+// FOR THE MODAL WHEN USER SUBMITS A FORM
+const submitBtn = document.querySelector('#submit-btn');
+const modalBg = document.querySelector('.modal-bg');
+const closeModal = document.querySelector('#close-modal');
+submitBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    modalBg.classList.add('active-modal');
+});
+closeModal.addEventListener('click', function() {
+    modalBg.classList.remove('active-modal');
+})
