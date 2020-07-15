@@ -45,8 +45,7 @@ function prevSlide() {
 const submitBtn = document.querySelector('#submit-btn');
 const modalBg = document.querySelector('.modal-bg');
 const closeModal = document.querySelector('#close-modal');
-submitBtn.addEventListener('click', function(e) {
-    e.preventDefault();
+submitBtn.addEventListener('click', function() {
     modalBg.classList.add('active-modal');
 });
 closeModal.addEventListener('click', function() {
