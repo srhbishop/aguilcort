@@ -119,6 +119,7 @@ section p {
 
 .basic-btn a {
     color: white;
+    text-decoration: none;
 }
 
 .basic-btn a:hover {
@@ -127,6 +128,7 @@ section p {
 
 .basic-btn a:visited {
     color: white;
+    text-decoration: none;
 }
 
 .stats {
