@@ -66,7 +66,7 @@ a {
 
 .banner {
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('images/banner-img.jpeg');
-    height: 85vh;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -94,11 +94,11 @@ section {
 
 section h2 {
     padding: 0px 0px 25px 0px;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 section p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2em;
 }
 
@@ -134,42 +134,46 @@ section p {
 }
 
 .stat-card {
-    width: 400px;
+    width: 350px;
     margin: 10px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 10px;
     box-shadow: 5px 5px 10px 10px darkgray;
 }
 
 .stat-card span {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #42801E;
 }
 
 .stat-img {
-    width: 380px;
+    width: 300px;
 }
 
 .stat-card p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 10px;
 }
 
 .sources {
     margin: 100px 0px 0px 0px;
-    font-size: 1em;
+    font-size: .8rem;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
 }
 
 ul {
     margin-left: 50px;
-    font-size: 1.7rem;
-    line-height: 2em;
+    font-size: 1.2rem;
+}
+
+#goals li, #work li {
+    margin: 10px;
 }
 
 .center {
@@ -258,7 +262,7 @@ form {
     border-radius: 20px;
     width: 400px;
     padding: 10px;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     border: 0px;
     background-color: white;
     margin: 10px;
@@ -268,7 +272,7 @@ form {
     border-radius: 20px;
     width: 400px;
     padding: 10px;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     border: 0px;
     background-color: white;
     margin: 10px;
@@ -449,6 +453,10 @@ footer {
         padding: 10px;
     }
 
+    .logo-text {
+        font-size:2rem;
+    }
+
     .charter {
         padding: 200px 50px 50px 50px;
     }
@@ -533,10 +541,6 @@ footer {
     .logo-img {
         height: 50px;
         width: auto;
-    }
-
-    .logo-text {
-        font-size: 1em;
     }
 
     .burger {
